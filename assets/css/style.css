@@ -1,0 +1,67 @@
+body{
+	background-image: url(../images/pattern.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1{
+	margin-bottom: 0;
+	background-color: #333;
+	text-transform: uppercase;
+	letter-spacing: 3px;
+	color: white;
+
+
+    font-family: 'Encode Sans Expanded', sans-serif;
+
+}
+
+h2{
+	text-transform: uppercase;
+	letter-spacing: 5px;
+	color: yellow;
+	background-color: ;
+
+	font-family: 'Sarina', cursive;
+}
+
+.about{
+	width: 100%;
+	font-size: 18px;
+	line-height: 1.5;
+	background-color: #333;
+	color: white;
+}
+
+.copyright{
+	width: 100%;
+	font-size: 18px;
+	line-height: 1.5;
+	background-color: #333;
+	color: white;
+}
+
+#me {
+	height: 200px; /*height sets the height of an element */
+	width: 200px; /*width sets the width of an element*/
+
+	/*200 px - 200 pixels */
+    border-radius: 50%; /*this sets the radius of the element/image*/
+    border-style: solid;
+    border-width: 5px;
+    border-color: white;
+    margin-top: 50px;
+
+}
+
+
+.footer {
+	color: white;
+	background-color: #333;
+}
+
+.container{
+	width: 500px;
+	margin: 0 auto;
+	text-align: center;
+}
